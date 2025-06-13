@@ -1,0 +1,47 @@
+[
+  {
+    "count_objects": 2,
+    "output_image": {
+      "type": "base64",
+    
+      "video_metadata": {
+        "video_identifier": "image",
+        "frame_number": 0,
+        "frame_timestamp": "2025-06-12T09:37:07.429174",
+        "fps": 30,
+        "measured_fps": null,
+        "comes_from_video_file": null
+      }
+    },
+    "predictions": {
+      "image": {
+        "width": 612,
+        "height": 408
+      },
+      "predictions": [
+        {
+          "width": 104,
+          "height": 202,
+          "x": 300,
+          "y": 167,
+          "confidence": 0.8338190913200378,
+          "class_id": 67,
+          "class": "cell phone",
+          "detection_id": "851ed2aa-5108-4802-99bc-a45f5993fd19",
+          "parent_id": "image"
+        },
+        {
+          "width": 351,
+          "height": 272,
+          "x": 344.5,
+          "y": 267,
+          "confidence": 0.7318223714828491,
+          "class_id": 0,
+          "class": "person",
+          "detection_id": "0cb2de7d-5aa0-428e-b5d9-2fc5f621bd46",
+          "parent_id": "image"
+        }
+      ]
+    }
+  }
+]

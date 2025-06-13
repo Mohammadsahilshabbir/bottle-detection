@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>PlasticDetect360</title>
+  <link rel="stylesheet" href="style.css">
+
+ 
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@4.8.0"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/coco-ssd"></script>
+
+  
+  <script src="three-animation.js"></script>
+</head>
+<body>
+
+  
+  <div id="particles-js"></div>
+
+  <h1>Plastic Detection 3D</h1>
+
+  <div id="container">
+    <video id="webcam" autoplay muted playsinline width="640" height="480"></video>
+    <canvas id="overlay" width="640" height="480"></canvas>
+  </div>
+
+  <div id="status">Loading model...</div>
+
+<div id="counter">Plastics detected: <span id="count">0</span></div>
+
+
+  <script src="script.js"></script>
+  <script>
+    particlesJS.load('particles-js', 'particles-config.json', () => {
+      console.log('particles.js config loaded.');
+    });
+  </script>
+
+</body>
+</html>

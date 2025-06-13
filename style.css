@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #ffffff;
+  background: #000;
+  text-align: center;
+}
+
+h1 {
+  margin: 20px 0;
+  font-size: 2rem;
+  color: cyan;
+  z-index: 1;
+  position: relative;
+}
+
+#particles-js {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  top: 0;
+  left: 0;
+}
+
+#container {
+  position: relative;
+  display: inline-block;
+}
+
+video, canvas {
+  border-radius: 12px;
+  box-shadow: 0 0 15px #0ff;
+}
+
+#overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#status {
+  margin-top: 15px;
+  font-weight: bold;
+  color: lime;
+}
+#counter {
+  font-size: 18px;
+  margin-top: 10px;
+  color: yellow;
+}
